@@ -40,7 +40,7 @@ The goal of these tests is to ensure the stability and correctness of the TodoMV
 ## **Design Patterns and Approach**
 
 ### **Page Object Model (POM)**
-Although this example does not include a dedicated POM, it adheres to its principles by:
+This adheres to its principles by:
 - Using locators for UI elements.
 - Keeping the test steps clear and focused on high-level actions.
 
@@ -108,7 +108,7 @@ Playwright's built-in test runner generates detailed reports:
   - Contains all the test files.
   - Each test file corresponds to a set of related scenarios.
 - `playwright.config.ts`
-  - Configuration file for Playwright, specifying settings like timeouts, reporters, and browser options.
+  - Configuration file for Playwright, specifying settings like timeouts, reporters, url and browser options.
 
 ---
 
@@ -121,9 +121,8 @@ Playwright's built-in test runner generates detailed reports:
 ---
 
 ## **Future Improvements**
-1. **Implement POM**: Introduce a proper Page Object Model to improve reusability and readability.
-2. **CI Integration**: Add tests to a CI/CD pipeline (e.g., GitHub Actions or Jenkins).
-3. **Enhanced Reporting**: Use advanced reporting tools like Allure for better visualization.
+1. **CI Integration**: Add tests to a CI/CD pipeline (e.g., GitHub Actions or Jenkins).
+2. **Enhanced Reporting**: Use advanced reporting tools like Allure for better visualization.
 
 ---
 
